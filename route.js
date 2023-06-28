@@ -23,7 +23,7 @@ router.get("/circle", async (req, res) => {
       return array.find((obj) => obj.id === id);
     };
 
-    const ids = [975735, 975770, 977816];
+    const ids = [975770, 977816, 975735];
 
     ids.forEach((id) => {
       const object = findObjectById(result, id);
